@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/pattern.png);
+    width: 100%;    
+}
+
+.box{
+    background-color: #1a0330;
+    color: #ebebeb;
+    border: solid;
+    border-color: #7a7878;
+    border-width: 2px;
+    display: block;
+}
+
+.title{
+    font-family: ;
+}
+
+.pretty{
+    font-family: ;
+}
+
+.tarNum{
+
+}
+
+.score{
+
+}
+
+.gem{
+
+}
+
+.curScoreTitle{
+
+}
+
+.guesNum{
+
+}
+
+.curScore{
+
+}
+
