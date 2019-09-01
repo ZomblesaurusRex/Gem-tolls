@@ -7,51 +7,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
     <link rel="stylesheet" href="assets/style/reset.css" class="css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Merienda|Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style/styles.css" class="css">
-
 </head>
 
 <body>
     <div class="container">
         <div class="row box">
-            <h1>Crystal Collector</h1>
+            <h1 class="title">Crystal Collector</h1>
         </div>
 
         <div class="row box">
-            <h1>Instructions</h1>
+            <h1 class="pretty">Instructions</h1>
         </div>
 
 
         <div class="row">
-            <div class="col-md-3 mid box">
-                <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+            <div class="col mid box">
+                <h1 class="pretty">Number to Guess:</span></h1>
+                <h1 class="guess"><span id="number-to-guess"></span></h1>
+
             </div>
-            <div class="col-md-3 mid box">
-                <h1>Score: <span id="score"></span></h1>
+            <div class="col mid box">
+                <h1 class="pretty">Wins: <span id="score"></span></h1>
+                <h1 class="pretty">Losses: <span id="lose"></span></h1>
             </div>
         </div>
-        
+
         <div class="row clearfix">
 
-            <img class= "gem" src=assets/images/bluejewel.png alt="Blue Gem">
-            <img class= "gem" src=assets/images/greenjewel.png alt="Green Gem">
-            <img class= "gem" src=assets/images/pinkjewel.png alt="Pink Gem">
-            <img class= "gem" src=assets/images/redjewel.png alt="Red Gem">
+            <button id= "buttonBlue"><img class="gem" src=assets/images/bluejewel.png alt="Blue Gem"></button>
+            <button id= "buttonGreen"><img class="gem" src=assets/images/greenjewel.png alt="Green Gem"></button>
+            <button id= "buttonPink"><img class="gem" src=assets/images/pinkjewel.png alt="Pink Gem"></button>
+            <button id ="buttonRed"><img class="gem" src=assets/images/redjewel.png alt="Red Gem"></button>
         </div>
         <div class="row box">
 
-            <h1>Current Score: </h1>
+            <h1 class="title2">Current Score: </h1>
 
         </div>
-<div class= "box">
+        <div class="box score">
+            <h1> <span id="curScore"></span> </h1>
 
-</div>
+        </div>
 
     </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
 
-    </body>
+</body>
 
 </html>

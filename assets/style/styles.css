@@ -1,6 +1,7 @@
 body{
     background-image: url(../images/pattern.png);
-    width: 100%;    
+    width: 50%;  
+    margin: auto;  
 }
 
 .box{
@@ -10,30 +11,64 @@ body{
     border-color: #7a7878;
     border-width: 2px;
     display: block;
+    margin: 15px;
 }
 
 .title{
-    font-family: ;
+    font-family: 'Sacramento', cursive;
     font-size: 40px;
+    padding: 25px;
+}
+
+.title2{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    padding: 2px;
 }
 
 .clearfix{
     clear: left;
 }
 .pretty{
-    font-family: ;
+    font-family: 'Handlee', cursive;
+    padding: 20px;
 }
 
 .mid{
     float: left;
 }
 
-.tarNum{
-
+.guess{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    padding: 15px;
 }
 
-.score{
 
+.score{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    padding: 15px;
+}
+
+button{
+    background: none;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 15px;
+    border-radius: 25px;
+}
+button:hover{
+    border-radius: 25px;
+    background-color: grey;
+    border: solid;    
+}
+
+button:active{
+    border-radius: 25px;
+    background-color: purple;
+    border: solid;    
 }
 
 .gem{
@@ -41,16 +76,3 @@ body{
     height: 100px;
     width: auto;
 }
-
-.curScoreTitle{
-
-}
-
-.guesNum{
-
-}
-
-.curScore{
-
-}
-
