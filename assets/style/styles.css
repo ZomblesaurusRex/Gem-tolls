@@ -14,10 +14,18 @@ body{
 
 .title{
     font-family: ;
+    font-size: 40px;
 }
 
+.clearfix{
+    clear: left;
+}
 .pretty{
     font-family: ;
+}
+
+.mid{
+    float: left;
 }
 
 .tarNum{
@@ -29,7 +37,9 @@ body{
 }
 
 .gem{
-
+    margin: 15px;
+    height: 100px;
+    width: auto;
 }
 
 .curScoreTitle{

@@ -12,35 +12,46 @@
 </head>
 
 <body>
-<div class= "container">
-    <div class= "row">
-        <h1>Crystal Collector</h1>
-    </div>
+    <div class="container">
+        <div class="row box">
+            <h1>Crystal Collector</h1>
+        </div>
 
-        <div class="row">
+        <div class="row box">
             <h1>Instructions</h1>
-    </div>
+        </div>
 
 
         <div class="row">
+            <div class="col-md-3 mid box">
+                <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+            </div>
+            <div class="col-md-3 mid box">
+                <h1>Score: <span id="score"></span></h1>
+            </div>
+        </div>
+        
+        <div class="row clearfix">
 
-    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
-    </div>
+            <img class= "gem" src=assets/images/bluejewel.png alt="Blue Gem">
+            <img class= "gem" src=assets/images/greenjewel.png alt="Green Gem">
+            <img class= "gem" src=assets/images/pinkjewel.png alt="Pink Gem">
+            <img class= "gem" src=assets/images/redjewel.png alt="Red Gem">
+        </div>
+        <div class="row box">
 
-    <img src=assets/images/bluejewel.png alt="Blue Gem">
-    <img src=assets/images/greenjewel.png alt="Green Gem">
-    <img src=assets/images/pinkjewel.png alt="Pink Gem">
-    <img src=assets/images/redjewel.png alt="Red Gem">
+            <h1>Current Score: </h1>
 
-    <h1>Current Score: </h1>
+        </div>
+<div class= "box">
 
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
-    
 </div>
-</body>
+
+    </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
 
 </html>
