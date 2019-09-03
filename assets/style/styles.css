@@ -29,6 +29,7 @@ body{
 .clearfix{
     clear: left;
 }
+
 .pretty{
     font-family: 'Handlee', cursive;
     padding: 20px;
@@ -43,7 +44,6 @@ body{
     font-size: 60px;
     padding: 15px;
 }
-
 
 .score{
     font-family: 'Merienda', cursive;
