@@ -20,19 +20,36 @@ function blueRandoGem() {
     var blueRando = Math.floor(Math.random() * 12) + 1;
     document.getElementById('blueGem').innerHTML = blueRando;
 };
-//onclick="document.getElementById('demo').innerHTML = Date()"
+function pinkRandoGem() {
+    var pinkRando = Math.floor(Math.random() * 12) + 1;
+    document.getElementById('pinkGem').innerHTML = pinkRando;
+};
+function greenRandoGem() {
+    var greenRando = Math.floor(Math.random() * 12) + 1;
+    document.getElementById('greenGem').innerHTML = greenRando;
+};
+function redRandoGem() {
+    var redRando = Math.floor(Math.random() * 12) + 1;
+    document.getElementById('redGem').innerHTML = redRando;
+};
+//
+
+//onclick="document.getElementById('previous').innerHTML = 
 //a new ranndom number should be generated every single to we win or lose
 //to those 4 crytals
 //for(var i = 0; i<1 ; i++) {}
 blueRandoGem()
+pinkRandoGem()
+redRandoGem()
+greenRandoGem()
     //var random = Math.floor(Math.random() * 12) + 1;
 
 
-    
+//generates the number in number to guess section 
 goalNumber()
 
 
-$(document).on('click', ".crystal", function () {
+$(document).on('click', function () {
     
     var num = parseInt($(this).attr('data-random'));
     
