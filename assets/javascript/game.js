@@ -4,23 +4,32 @@ var goal_result;
 var lost = 0;
 var win = 0;
 var previous = 0;
+var blue;
+var green;
+var red;
+var pink;
 
-
-//every crystal needs to have a random number between 1-12
-//a new ranndom number should be generated every single to we win or lose
-//to those 4 crytals
-function resetAndStart() {
+//a new random number is generated as the ultimate number to achieve
+function goalNumber() {
     var goal_result = Math.floor(Math.random() * 120) + 30;
     document.getElementById('number-to-guess').innerHTML = goal_result;
 };
 
-    //for(var i = 0; i<1 ; i++) {}
-
+//every crystal needs to have a random number between 1-12
+function blueRandoGem() {
+    var blueRando = Math.floor(Math.random() * 12) + 1;
+    document.getElementById('blueGem').innerHTML = blueRando;
+};
+//onclick="document.getElementById('demo').innerHTML = Date()"
+//a new ranndom number should be generated every single to we win or lose
+//to those 4 crytals
+//for(var i = 0; i<1 ; i++) {}
+blueRandoGem()
     //var random = Math.floor(Math.random() * 12) + 1;
 
-//<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+
     
-    resetAndStart()
+goalNumber()
 
 
 $(document).on('click', ".crystal", function () {
