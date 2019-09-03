@@ -1,7 +1,11 @@
 body{
     background-image: url(../images/pattern.png);
     width: 50%;  
-    margin: auto;  
+}
+
+.container{
+    background-color: #575050;
+    padding: 5px;
 }
 
 .box{
@@ -27,16 +31,13 @@ body{
 }
 
 .clearfix{
-    clear: left;
+    clear: left right;
+
 }
 
 .pretty{
     font-family: 'Handlee', cursive;
     padding: 20px;
-}
-
-.mid{
-    float: left;
 }
 
 .guess{
@@ -57,22 +58,28 @@ button{
     border-color: black;
     border-width: 1px;
     margin: 15px;
-    border-radius: 25px;
+    border-radius: 5px;
 }
 button:hover{
-    border-radius: 25px;
     background-color: grey;
     border: solid;    
 }
 
 button:active{
-    border-radius: 25px;
     background-color: purple;
     border: solid;    
 }
 
-.gem{
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-color: yellow;
     margin: 15px;
-    height: 100px;
-    width: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+img{
+    width: 50px;
+    height: auto;
 }
