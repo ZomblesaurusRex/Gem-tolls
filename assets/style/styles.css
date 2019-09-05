@@ -1,0 +1,85 @@
+body{
+    background-image: url(../images/pattern.png);
+    width: 50%;  
+}
+
+.container{
+    background-color: #575050;
+    padding: 5px;
+}
+
+.box{
+    background-color: #1a0330;
+    color: #ebebeb;
+    border: solid;
+    border-color: #7a7878;
+    border-width: 2px;
+    display: block;
+    margin: 15px;
+}
+
+.title{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    padding: 25px;
+}
+
+.title2{
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.clearfix{
+    clear: left right;
+
+}
+
+.pretty{
+    font-family: 'Handlee', cursive;
+    padding: 20px;
+}
+
+.guess{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.score{
+    font-family: 'Merienda', cursive;
+    font-size: 60px;
+    padding: 15px;
+}
+
+button{
+    background: none;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: grey;
+    border: solid;    
+}
+
+button:active{
+    background-color: purple;
+    border: solid;    
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-color: yellow;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+img{
+    width: 50px;
+    height: auto;
+}
